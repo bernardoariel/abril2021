@@ -1,0 +1,27 @@
+#valenziana-video{
+
+  width: 100% !important;
+
+}
+
+.services .icon-boxes .icon-box {
+  margin-top: 30px;
+}
+
+.services .icon-boxes .icon-box i {
+  font-size: 40px;
+  color: #FEA239;
+  margin-bottom: 10px;
+}
+
+.services .icon-boxes .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+
+.services .icon-boxes .icon-box p {
+  font-size: 15px;
+  color: #848484;
+}
+

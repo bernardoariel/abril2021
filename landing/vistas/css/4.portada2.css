@@ -1,0 +1,132 @@
+.portada{
+  background: url('../img/plantilla/cabecera-mobil/portada-bg.jpg');
+  height: 350px;
+  top: 2px;
+  background-size:     cover;                     
+  background-repeat:   no-repeat;
+  background-position: center center;
+  max-width: 100% !important;
+  overflow: hidden;
+   /*position:absolute; */
+}
+
+.transparencia0  {
+  position: absolute; 
+  top: 50;
+  left: 0; 
+  width: auto; 
+  height: auto;
+  z-index: 2;
+  opacity: 0.3;
+}
+
+.transparencia1  {
+  position: absolute; 
+  top: 50; 
+  left: 0; 
+  width: auto; 
+  height: auto;
+  z-index: 100;
+}
+.full-width-image {
+  width: 100vw;
+  position: relative;
+ /* left: 50%;  
+  margin-left: -50vw;*/
+}
+
+.full-width-image img {
+  width: 100%;
+}
+@media all and (max-width: 1000px){
+
+  .portada1,.portada2,.portada3,.portada2-2,.portada1-2,.portada3-2{
+    margin-top: 50px;
+  }
+
+  #portada{
+    height: 265px;
+  }
+
+}
+
+@media all and (max-width: 900px){
+
+  #portada{
+    height: 240px;
+  }
+
+}
+
+@media all and (max-width: 800px){
+   .portada1,.portada2,.portada3,.portada2-2,.portada1-2,.portada3-2{
+    display:none;
+  }
+ .portada{
+  background: url('../img/plantilla/cabecera-mobil/portada-bg-300.jpg');
+  height: 290px !important;
+  
+  
+  }
+  #comprarOnline{
+    display:none;
+  }
+}
+@media all and (max-width: 700px){
+   .portada1,.portada2,.portada3,.portada2-2,.portada1-2,.portada3-2{
+    display:none;
+  }
+ .portada{
+  background: url('../img/plantilla/cabecera-mobil/portada-bg-250.jpg');
+  
+  }
+  #portada{
+    height: 250px  !important;
+  }
+}
+
+@media all and (max-width: 600px){
+   .portada1,.portada2,.portada3,.portada2-2,.portada1-2,.portada3-2{
+    display:none;
+  }
+ .portada{
+    background: url('../img/plantilla/cabecera-mobil/portada-bg-200.jpg');
+   
+  }
+  #portada{
+    height: 200px  !important;
+  }
+}
+
+@media all and (max-width: 450px){
+   .portada1,.portada2,.portada3,.portada2-2,.portada1-2,.portada3-2{
+    display:none;
+  }
+ .portada{
+
+  background: url('../img/plantilla/cabecera-mobil/portada-bg-150.jpg');
+  }
+
+  #portada{
+    height: 150px !important;
+  }
+  .portada img{
+    top:10px;
+  }
+}
+
+@media all and (max-width: 300px){
+   .portada1,.portada2,.portada3,.portada2-2,.portada1-2,.portada3-2{
+    display:none;
+  }
+ .portada{
+
+  background: url('../img/plantilla/cabecera-mobil/portada-bg-150.jpg');
+  height: 100px;
+ 
+  }
+  .portada img{
+    top:10px;
+  }
+}
+

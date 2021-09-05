@@ -1,0 +1,46 @@
+/*=============================================
+CARRITO DE COMPRAS
+=============================================*/
+.cabeceraCarrito{
+	height:40px;
+}
+
+.cabeceraCarrito h3{
+	margin-top:-5px
+}
+
+.cabeceraCheckout{
+	height:66px;
+}
+.quitarItemCarrito{
+	
+	background: #21AD90;
+	border-radius: 0px;
+	border-color:#D5D8DC;
+	box-shadow: 2px 2px 5px #999;
+}
+.quitarItemCarrito:hover{
+	background: #FA485A;
+	border-radius: 0px;
+	color:white;
+	border-color:#FFF;
+
+}
+.quitarItemCarrito:active{
+	background: #FA485A;
+	border-radius: 0px;
+	color:white;
+	border-color:#FFF;
+	outline:none;
+}
+/*=============================================
+CHECKOUT
+=============================================*/
+
+.contenidoCheckout, .contenidoCheckout .row{
+	padding:0px 20px;
+}
+
+.formEnvio{
+	display:none;
+}

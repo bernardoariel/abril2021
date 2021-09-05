@@ -1,0 +1,165 @@
+#menu-navegacion{
+  
+  background: #252525 !important;
+  color:#fff;
+  font-weight: normal;
+  font-style: normal;
+  border-bottom: 1px solid #fff;
+  padding-top: 0px;
+  padding-bottom: 0px;
+   font-weight: 500;
+}
+
+.logo{
+  height: 40px;
+}
+
+.logo:hover{
+  filter: blur(0.5px);
+}
+
+#menu-navegacion .logo img:hover{
+  filter: blur(1px);
+
+}
+
+#menu-navegacion a {
+  color: #FFF;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 1px;
+}
+
+#menu-navegacion ul a:hover {
+  background-color:#FEA239;
+  color: #fff !important;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: 500;
+
+}
+
+
+.punto{
+    filter: blur(0px);
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 2px;
+    margin-bottom:   6px;
+}
+
+/*=====================================
+  MENU
+======================================*/
+.menu{
+  background: #252525;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  overflow: hidden;
+  height: 300px;
+}
+.menu a:hover {
+ 
+  background-color:#252525;
+  color: #252525 !important;
+}
+  
+  .nav-item .active {
+
+    background: #FEA239!important;
+    color: #252525!important;
+    text-decoration: underline;
+  }
+  
+
+  .covid{
+
+    background: #FEA239;
+    height: 50px;
+    flex:1 1 auto;
+  }
+
+  .menuprincipal{
+
+    background: #FEA239;
+    height: 50px;
+    flex:3 1 auto;
+  }
+
+  .tienda{
+
+    background: #ffaa33;
+    height: 50px;
+    flex:1 1 auto;
+  }
+
+  @media all and (max-width: 991px){
+
+    .punto{
+
+     /*margin-left: -530px;*/
+     display: none;
+
+    }
+    #menu-navegacion a {
+    
+      padding-top: 10px;
+      padding-bottom: 10px;
+      
+    }
+  }
+  @media all and (max-width: 767px){
+
+     .punto{
+
+     /*margin-left: -530px;*/
+     display: none;
+
+    }
+    #menu-navegacion a {
+    
+      padding-top: 10px;
+      padding-bottom: 10px;
+      
+    }
+  
+  }
+
+  @media all and (max-width: 600px){
+
+    .navbar .navbar-collapse {
+      padding-top: 10px;
+      text-align: center;
+    }
+    .punto{
+
+     /*margin-left: -530px;*/
+     display: none;
+
+    }
+    #menu-navegacion a {
+    
+      padding-top: 10px;
+      padding-bottom: 10px;
+      
+    }
+  
+  }
+
+  @media all and (max-width: 575px){
+
+     .punto{
+
+     /*margin-left: -530px;*/
+     display: none;
+
+    }
+    #menu-navegacion a {
+    
+      padding-top: 10px;
+      padding-bottom: 10px;
+      
+    }
+  
+  }
